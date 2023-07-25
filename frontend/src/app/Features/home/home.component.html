@@ -1,0 +1,6 @@
+<div>
+    <div *ngFor="let i of crypto$ | async">
+        <img src="{{ i.item.thumb }}" alt="">
+        {{ i.item.id }}
+    </div>
+</div>
